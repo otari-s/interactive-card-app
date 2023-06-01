@@ -1,0 +1,162 @@
+.cardFront {
+  position: relative;
+  width: 400px;
+
+  top: 10%;
+  left: 35%;
+}
+.cardFrontImage {
+  width: 100%;
+
+  display: block;
+}
+.cardFrontLogo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 15%;
+}
+.cardFrontNumber {
+  position: absolute;
+  left: 2rem;
+  top: 55%;
+  font-size: 1.2rem;
+  color: white;
+}
+.cardFrontName {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+.cardFrontCvc {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.cardBack {
+  position: relative;
+  width: 400px;
+  top: 20%;
+  left: 40%;
+}
+.cardBackImage {
+  width: 100%;
+  display: block;
+}
+.cardBackExpire {
+  position: absolute;
+  bottom: 46.4%;
+  right: 3rem;
+}
+@media (max-width: 915px) {
+  .cardFrontNumber {
+    font-size: 20px;
+  }
+  .cardFrontName {
+    bottom: 1rem;
+  }
+  .cardFrontCvc {
+    bottom: 1rem;
+  }
+  .cardFront,
+  .cardBack {
+    width: 300px;
+  }
+  .cardFront {
+    top: 20%;
+    left: 35%;
+  }
+  .cardBack {
+    top: 25%;
+  }
+}
+@media (max-width: 680px) {
+  .cardFrontNumber {
+    font-size: 15px;
+  }
+  .cardFrontName {
+    font-size: 15px;
+  }
+  .cardFrontCvc {
+    font-size: 15px;
+  }
+  .cardBackExpire {
+    bottom: 44%;
+    right: 2rem;
+  }
+  .cardFront,
+  .cardBack {
+    width: 250px;
+  }
+  .cardFront {
+    top: 25%;
+  }
+  .cardBack {
+    top: 30%;
+  }
+  label {
+    font-size: 10px;
+  }
+}
+@media (max-width: 560px) {
+  .cardFrontNumber {
+    font-size: 20px;
+  }
+  .cardFrontName {
+    font-size: 16px;
+  }
+  .cardFrontCvc {
+    font-size: 16px;
+  }
+  .cardBackExpire {
+    bottom: 45%;
+    right: 2.5rem;
+  }
+  .cardFront,
+  .cardBack {
+    width: 350px;
+  }
+  .cardBack {
+    top: -70%;
+    left: 20%;
+  }
+  .cardFront {
+    top: 60%;
+    left: 10%;
+    z-index: 22;
+  }
+}
+@media (max-width: 480px) {
+  .cardBackExpire {
+    bottom: 44%;
+    right: 2rem;
+  }
+  .cardFront,
+  .cardBack {
+    width: 300px;
+  }
+  .cardBack {
+    top: -60%;
+    left: 12%;
+  }
+  .cardFront {
+    top: 60%;
+    left: 5%;
+    z-index: 22;
+  }
+}
+@media (max-width: 400px) {
+  .cardFront,
+  .cardBack {
+    width: 250px;
+  }
+  .cardBack {
+    top: -100%;
+    left: 10%;
+  }
+  .cardFront {
+    top: 60%;
+    left: 1%;
+    z-index: 22;
+  }
+}

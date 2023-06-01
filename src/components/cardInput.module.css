@@ -1,0 +1,60 @@
+form {
+  width: 55%;
+}
+label {
+  display: block;
+  margin-bottom: 9px;
+}
+input {
+  margin-bottom: 26px;
+  border: none;
+  border: 1px solid #dfdee0;
+  padding: 11px;
+  outline: #dfdee0;
+}
+.number,
+.name {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+.date {
+  display: flex;
+}
+.expireDate {
+  width: 55%;
+}
+.m,
+.y {
+  width: 48%;
+  height: 40px;
+  border-radius: 8px;
+}
+.dateCvc {
+  width: 45%;
+}
+.cvc {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #21092f;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 915px) {
+  form {
+    width: 60%;
+  }
+
+  label {
+    font-size: 14px;
+  }
+}
+@media (max-width: 560px) {
+}
